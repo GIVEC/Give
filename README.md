@@ -16,25 +16,38 @@ Grupo 3
 ##### Sprint Backlog
 > Cada requisito tem um identificador único de maneira que seja possível rastrear a necessidade do cliente com a implementação do software.
 
-| Identificador | Descrição | Prioridade |
-| ------------ | ------------------------------------------------------------------------ | ------|
-|  |                         MICROEMPREENDEDOR | |
-| REQ01 – Cadastrar Microempreendedor | Como – Microempreendedor, Eu quero – Me cadastrar, De maneira que – Colocar minha empresa em evidência para que clientes possam ter acesso ao meu negócio.| Média |
-| REQ02 – Login do Microempreendedor| Como – Microempreendedor, Eu quero – Me logar no sistema, De maneira que – Ter acesso às informações cadastradas e ter outras funcionalidades de microempreendedor do site.| Alta |
-| REQ03 – Alterar Dados | Como – Microempreendedor, Eu quero – Poder alterar minhas informações, De maneira que – Conseguir muda-las quando não são mais válidas ou inverossímeis, exemplo: telefone, endereço da empresa. | Alta |
-| REQ04 – Chat | Como – Microempreendedor, Eu quero – Ter acesso ao chat com clientes, De maneira que – Ter um contato direto com eles e poder sanar possíveis dúvidas, ampliando assim a rede de consumidores. | Baixa |
-| REQ05 – Logout | Como – Microempreendedor, Eu quero – Deslogar do sistema, De maneira que –  Poder sair com segurança do site e não deixar meus dados expostos. | Baixa |
-|  | CLIENTE | |
-| REQ06 – Cadastrar Cliente | Como – Cliente, Eu quero – Me cadastrar no sistema, De maneira que – Poder ter acesso as microempresas disponíveis no aplicativo do sistema. | Média |
-| REQ07 – Login do Cliente| Como – Cliente, Eu quero – Me logar no sistema, De maneira que – Ter acesso às informações cadastradas e as empresas salvas em meus destaques| Alta |
-| REQ08 – Alterar Dados | Como – Cliente, Eu quero – Poder alterar minhas informações, De maneira que – Conseguir muda-las quando não são mais válidas ou inverossímeis, exemplo: telefone, endereço da prestação de serviço | Alta |
-| REQ09 – Destaque de empresa | Como – Cliente, Eu quero – Conseguir salvar empresas que gostei e colocar em meus destaques para poder ter acesso mais tarde, De maneira que – Que seja mais simples encontrar empresas que gostei no sistema e ter um melhor controle de serviços. | Baixa |
-| REQ10 – Acessar localização da empresa| Como – Cliente, Eu quero – Conseguir visualizar o endereço disponibilizado pela empresa no mapa., De maneira que – Conseguir saber exatamente onde a empresa está localizada| Baixa |
-| REQ11 – Chat | Como – Cliente, Eu quero – Conseguir colocar comentários nos perfis das empresas., De maneira que – Dar um feedback para a empresa, para outros clientes que queiram contratar seus serviços e relatar dúvidas sobre serviços. | Baixa |
-| REQ12 – Logout | Como – Cliente, Eu quero – Deslogar do sistema, De maneira que – Poder sair com segurança do site e não deixar meus dados expostos. | Baixa |
-|  | SISTEMA  |  |
-| REQ013 – Listagem de empresas | Como – Sistema, Eu quero – Fazer a listagem de microempresas, De maneira que – Que os clientes do sistema possam ter acesso as microempresas cadastradas no sistema e para que as microempresas possam ter a visibilidade necessária para que sua gama de usuários e consumidores aumente.| Média |
+|||SPRINT 1||||
+|-------------|------------|-------------|-------------|---------------------|------|
+| ID | Nome | Usuário | Descrição | Prioridade | Horas |
+| REQ01 | Cadastrar Microempreendedor | Como – Microempreendedor, Eu quero – Me cadastrar, De maneira que – Colocar minha empresa em evidência para que clientes possam ter acesso ao meu negócio.| Média ||
+| REQ02 | Cadastrar Cliente | Como – Cliente, Eu quero – Me cadastrar no sistema, De maneira que – Poder ter acesso as microempresas disponíveis no aplicativo do sistema. | Média ||
+| REQ03 | Login do Microempreendedor| Como – Microempreendedor, Eu quero – Me logar no sistema, De maneira que – Ter acesso às informações cadastradas e ter outras funcionalidades de microempreendedor do site.| Alta ||
+| REQ04 | Login do Cliente| Como – Cliente, Eu quero – Me logar no sistema, De maneira que – Ter acesso às informações cadastradas e as empresas salvas em meus destaques| Alta ||
+| REQ05 | Logout Microempreendedor | Como – Microempreendedor, Eu quero – Deslogar do sistema, De maneira que –  Poder sair com segurança do site e não deixar meus dados expostos. | Baixa ||
+| REQ06 | Logout Cliente | Como – Cliente, Eu quero – Deslogar do sistema, De maneira que – Poder sair com segurança do site e não deixar meus dados expostos. | Baixa ||
 
+|||SPRINT 2||||
+|-------------|------------|-------------|-------------|---------------------|------|
+| REQ03 | Alterar Dados | Como – Microempreendedor, Eu quero – Poder alterar minhas informações, De maneira que – Conseguir muda-las quando não são mais válidas ou inverossímeis, exemplo: telefone, endereço da empresa. | Alta ||
+| REQ08 | Alterar Dados | Como – Cliente, Eu quero – Poder alterar minhas informações, De maneira que – Conseguir muda-las quando não são mais válidas ou inverossímeis, exemplo: telefone, endereço da prestação de serviço | Alta ||
+
+|||SPRINT 3||||
+|-------------|------------|-------------|-------------|---------------------|------|
+| REQ013 | Listagem de empresas | Como – Sistema, Eu quero – Fazer a listagem de microempresas, De maneira que – Que os clientes do sistema possam ter acesso as microempresas cadastradas no sistema e para que as microempresas possam ter a visibilidade necessária para que sua gama de usuários e consumidores aumente.| Média ||
+| REQ09 | Destaque de empresa | Como – Cliente, Eu quero – Conseguir salvar empresas que gostei e colocar em meus destaques para poder ter acesso mais tarde, De maneira que – Que seja mais simples encontrar empresas que gostei no sistema e ter um melhor controle de serviços. | Baixa ||
+| REQ10 | Acessar localização da empresa| Como – Cliente, Eu quero – Conseguir visualizar o endereço disponibilizado pela empresa no mapa., De maneira que – Conseguir saber exatamente onde a empresa está localizada| Baixa ||
+| REQ | Favoritar empresas |  | |---------------------|------|
+| REQ | Destaques empresas |-------------|-------------|---------------------|------|
+|-------------|------------|-------------|-------------|---------------------|------|
+|-------------|------------|-------------|-------------|---------------------|------|
+
+|||SPRINT 4||||
+|-------------|------------|-------------|-------------|---------------------|------|
+| REQ04 | Chat | Como – Microempreendedor, Eu quero – Ter acesso ao chat com clientes, De maneira que – Ter um contato direto com eles e poder sanar possíveis dúvidas, ampliando assim a rede de consumidores. | Baixa ||
+| REQ11 | Chat | Como – Cliente, Eu quero – Conseguir colocar comentários nos perfis das empresas., De maneira que – Dar um feedback para a empresa, para outros clientes que queiram contratar seus serviços e relatar dúvidas sobre serviços. | Baixa ||
+
+|||SPRINT 5||||
+|-------------|------------|-------------|-------------|---------------------|------|
 
 ##### Definição de pronto
 > O sprint será considerado concluido quando:
