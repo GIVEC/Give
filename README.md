@@ -6,7 +6,7 @@ Grupo 3
 - <a href = "https://github.com/PriscilaDias2003">Priscila Gabriele Dias Ribeiro</a>
 - <a href = "https://github.com/GiovannaBerato">Giovanna Berato</a>
 ##### Processo de Desenvolvimento de Software - PDS
-> O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade.
+> O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade do site. 
 ##### Estudo de Caso – Sistema Integrado de Gestão
 > Colocar  microempresários  e  clientes  em  contato  através  da  tecnologia  por meio   da   nossa   plataforma.   queremos   melhorar   a   forma   de relacionamento empresário/cliente,  facilitando  o  caminho  entre  os  dois,  tornando  mais  simples  e rápido o encontro dos dois.
 ##### Product Backlog
