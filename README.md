@@ -72,6 +72,15 @@ Grupo 3
 | REQ37 | Ayualização Front-end | Sistema|A realização de algumas mudanças na aparência do site para uma melhor padronização e o acréscimo de detalhes referentes ao novos itens.| Alta | 3|
 | REQ38 | Pesquisa em tempo real| Cliente|Ao começar a escrever o nome da empresa buscada na barra de pesquisa, o cliente terá acesso a uma filtragem de opções onde aparecerão apenas empresas com nomes condizentes com a sentença escrita pelo cliente.| Média| 1|
 
+||||SPRINT 6|||
+|-------------|------------|-------------|-------------|---------------------|------|
+| ID | Nome | Usuário | Descrição | Prioridade | Horas |
+| REQ39 | Acrescentar Cupons | Microempreendedor |Desenvolvimento da implementação back-end da função cupom que oferecerá opções de taxas de descontos para que o microempreendedor possa escolher para disponibilizar para os clientes usufruírem em suas compras. | Baixa |3|
+| REQ40 | Disponibilizar Cupons| Microempreendedor |O microempreendedor pode disponibilizar cupons no sistema para o cliente através de um botão responsável por gerar QR Codes aleatórios e sendo em seguida disponibilizado para o acesso e recebimento dos clientes.   | Baixa |2|
+| REQ41 | Pegar Cupons| Cliente| O cliente poderá adquirir cupons de descontos em determinadas empresas que disponibilizaram-no previamente para usar em compras ou serviços destas mesmas empresas, após ir a pagina referente as informações disponíveis da determinada empresa será encontrado o código que deverá ser copiado e utilizado durante   | Baixa | 1|
+| REQ42 | Remover Cupons | Microempreendedor|O microempreendedor poderá indisponibilizar os cupons anteriormente autorizados  no sistema para os clientes, através de um botão semelhante  ao de gerar cupons e sendo em seguida indisponibilizado para o acesso ou recebimento dos clientes.   | Baixa| 3|
+
+
 ##### Definição de pronto
 > O sprint será considerado concluido quando:
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade
