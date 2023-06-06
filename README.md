@@ -83,6 +83,8 @@ Grupo 3
 | ------------ | ------------------------------------------------------------------------ |
 | REQ01CT01 | Dado (setup) que o CPF do cliente não está cadastrado; Quando (ação) o usuário confirma o cadastro; Então (resultado esperado) o sistema envia uma mensagem de cadastro realizado com sucesso |
 | REQ01CT02 | Dado (setup) que o CPF do cliente está cadastrado; Quando (ação) o usuário confirma o cadastro; Então (resultado esperado) o sistema rejeita e envia uma mensagem de dados inválidos |
+| REQ01CT03 | Dado (setup) que o CPF do microempreendedor não está cadastrado; Quando (ação) o usuário confirma o cadastro; Então (resultado esperado) o sistema envia uma mensagem de cadastro realizado com sucesso |
+| REQ01CT04 | Dado (setup) que o CPF do microempreendedor está cadastrado; Quando (ação) o usuário confirma o cadastro; Então (resultado esperado) o sistema rejeita e envia uma mensagem de dados inválidos |
 >
 O modelo de dominio (Larman, 2006 - classes conceituais ou classes de negócio) foi definido considerando as seguintes classes:
 ![modelo de dominio]![ed02 - identificação de objetos do dominio](https://user-images.githubusercontent.com/99518259/226618784-de8a4618-4fc3-4aef-8ee1-acfb23f810d0.png)
@@ -118,12 +120,14 @@ classDiagram
 >O diagrama de sequência descreve como os varios componentes arquiteturais colaboram para manipular uma operação de sistema (exemplo para operação consultaTodos())
 ```mermaid
 sequenceDiagram
+ChatController ->> Usuario: JSon[]
 Usuario ->> APICupomController: GET /api/v1/clientes
 APICupomController ->> CupomServiceI: consultaTodos ( )
 CupomServiceI ->> CupomRepository: findAll ( )
 CupomRepository -->> CupomServiceI: List[]
 ClienteServiceI-->> APICupomController: List[]
 APICupomController -->> Usuario: JSon[]
+
 ```
 >Referencias
 - [1] KRUCHTEN, Philippe. Reference: Title: Architectural blueprints—the “4+ 1” view model of software architecture. IEEE software, v. 12, n. 6, 1995.
