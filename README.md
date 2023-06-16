@@ -1,18 +1,17 @@
 ### Fatec ZL - Centro Paula Souza
-##### Disciplina - Programação Web III
+#### Disciplina - Programação Web III
 Grupo 3
 - <a href = "https://github.com/Beatriz-Chagas">Beatriz Chagas de Sousa</a>
 - <a href = "https://github.com/eloocunha">Eloisa da Cunha</a>
 - <a href = "https://github.com/PriscilaDias2003">Priscila Gabriele Dias Ribeiro</a>
 - <a href = "https://github.com/GiovannaBerato">Giovanna Berato</a>
-##### Processo de Desenvolvimento de Software - PDS
+#### Processo de Desenvolvimento de Software - PDS
 > O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade do web site. 
 > Utilizando de alguns dos principios do SOLID, como o da segregação "Uma classe não deve ser forçada a implementar interfaces e métodos que não utilizará".
-##### Estudo de Caso – Sistema Integrado de Gestão
+#### Estudo de Caso – Sistema Integrado de Gestão
 > Trazer para os  microempresários  e  clientes  em  uma ferramenta para coloca-los em contato  através  da  tecnologia, tornando o esforço de marketing.   queremos   melhorar   a   forma   de relacionamento empresário/cliente,  facilitando  o  caminho  entre  os  dois,  tornando  mais  simples  e rápido o encontro dos dois.
-##### Product Backlog
 
-##### Sprint Backlog
+#### Sprint Backlog
 > Cada requisito tem um identificador único de maneira que seja possível rastrear a necessidade do cliente com a implementação do software.
 
 ||||SPRINT 1||||
@@ -82,13 +81,13 @@ Grupo 3
 | REQ42 | Remover Cupons | Microempreendedor|O microempreendedor poderá indisponibilizar os cupons anteriormente autorizados  no sistema para os clientes, através de um botão semelhante  ao de gerar cupons e sendo em seguida indisponibilizado para o acesso ou recebimento dos clientes.   | Baixa| 3| Em andamento |
 
 
-##### Definição de pronto
+### Definição de pronto
 > O sprint será considerado concluido quando:
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade
 é estabelecido pelo identificador do caso de teste.
 > 2) Depois de executado os casos de teste com 100% de satisfatorios o código deve ser armazenado no github (commit).
 
-##### Casos de teste
+### Casos de teste
 | Identificador | Cenário de uso |
 | ------------ | ------------------------------------------------------------------------ |
 | REQ01CT01 | Dado (setup) que o CPF do cliente não está cadastrado; Quando (ação) o usuário confirma o cadastro; Então (resultado esperado) o sistema envia uma mensagem de cadastro realizado com sucesso |
@@ -139,7 +138,45 @@ ClienteServiceI-->> APICupomController: List[]
 APICupomController -->> Usuario: JSon[]
 
 ```
->Referencias
+
+#### Dicionário
+##### Microempresa
+Id: <“int32”> = recebe o código único do microempreendedor.
+nome_dono: <”string”> = Armazena o nome do microempreendedor.
+nome_empresa:<”string”> = Armazena o nome da empresa.
+cnpj: <”string”> = É responsável por validar a empresa por meio de um código único de empresas.
+cep: <”string”> = É o código oficial do bairro onde reside a empresa.
+categoria: <”string”> = É a categoria na qual a empresa se caracteriza.
+telefone: <”string”> = Sequência numérica necessária para a comunicação e futura confirmação de identidade do acesso as informações do aplicativo.
+whatsapp: <”string”> = Assim como o telefone, serve para o contato do cliente com a Microempresa por meio da plataforma whatsapp.
+email: <”string”> = Email que servirá para auxiliar no cadastro e login do usuário no site e para que possa haver uma comunicação do cliente com a empresa.
+site: <”string”> = Link para acessar o próprio site da empresa, caso haja um.
+instagram: <”string”> = Link para a rede social Instagram.
+facebook: <”string”> = Link para a rede social Facebook.
+descricao: <”string”> = É uma pequena descrição do que a empresa faz e sobre seus serviços.
+senha: <”string”> = Código de caracteres e números escolhidos pelo Microempreendedor, necessários para manter a sua segurança dentro da plataforma.
+foto_perfil: <”string”> = Foto escolhida pelo próprio Microempreendedor para caracterizar sua empresa dentro do site. 
+
+##### Cliente
+id: <int32> = recebe o código único do cliente.
+
+nome: <”string”> = Nome do usuário cliente.
+
+ultimo_nome: <”string”> = Último nome do usuário cliente.
+
+email:<”string”> = Email que servirá para auxiliar no cadastro e login do usuário no site e para que possa haver uma comunicação do cliente com a empresa.
+
+senha:<”string”> = Código de caracteres e números escolhidos pelo Cliente, necessários para manter a sua segurança dentro da plataforma.
+
+##### Avaliação
+Nota: <”int32”> = Armazena a nota dada pelo cliente para uma empresa de acordo com experiências de uso.
+
+##### Comentários
+clienteID: <“int32”> = Recebe o código único do cliente.
+
+MicroempresaID: <“int32”> = Recebe o código único do microempreendedor
+
+#### Referencias
 - [1] KRUCHTEN, Philippe. Reference: Title: Architectural blueprints—the “4+ 1” view model of software architecture. IEEE software, v. 12, n. 6, 1995.
 - [2] RICHARDSON, Chris. Microservices patterns: with examples in Java. Simon and Schuster, 2018.
 - [3] ERL, Thomas. SOA principles of service design (the Prentice Hall service-oriented computing series from Thomas Erl). Prentice Hall PTR, 2007.
